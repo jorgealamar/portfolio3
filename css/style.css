@@ -45,6 +45,11 @@ body {
   padding: 40px;
   border-radius: 20px;
   text-align: center;
+  color: var(--text);
+}
+
+.light .overlay {
+  background: rgba(255,255,255,0.9);
 }
 
 .perfil {
@@ -74,7 +79,7 @@ section {
 }
 
 .whatsapp { background: #25D366; }
-.github { background: #333; }
+.github { background: #e10c0c; }
 .linkedin { background: #0A66C2; }
 
 .formulario form {
@@ -141,4 +146,21 @@ footer {
 }
 .card a:hover {
   text-decoration: underline;
+}
+
+.contato a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.contato a[href*="curriculo"] {
+  color: #25D366;
+}
+
+.contato a:hover {
+  text-decoration: underline;
+}
+
+.contato {
+  color: var(--text);
 }
